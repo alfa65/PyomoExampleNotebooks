@@ -1,0 +1,28 @@
+set V := Tomatoes Potatoes;
+set R := Land Manure;
+
+param:	   c	 :=
+Tomatoes   3
+Potatoes   5
+;
+
+param:	   avail :=
+Tomatoes   10
+Potatoes   6
+;
+
+
+param  max_q :=
+Land    12
+Manure  16
+;
+
+
+
+param need: 
+	Tomatoes	Potatoes:=
+Land      1		1
+Manure    1		2
+;
+
+
